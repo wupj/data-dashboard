@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@layer components {
+  .screen-container {
+    @apply w-full h-full;
+  }
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+}
