@@ -1,9 +1,21 @@
-import { createApp } from "vue";
-import router from "@/router";
+import { createApp } from 'vue';
+import { VueQueryPlugin } from '@tanstack/vue-query';
 
-import "normalize.css/normalize.css";
-import "@/styles/index.css";
+import router from '@/router';
+import Loading from '@/directive/loading';
+import i18n from '@/plugins/i18n';
 
-import App from "./App.vue";
+import 'normalize.css/normalize.css';
+import '@/styles/index.css';
 
-createApp(App).use(router).mount("#app");
+import App from './App.vue';
+
+const app = createApp(App);
+
+app.directive('loading', Loading);
+
+app.use(router);
+app.use(VueQueryPlugin);
+app.use(i18n);
+app.mount('#app');
+

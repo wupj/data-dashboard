@@ -1,0 +1,39 @@
+declare module '*.vue' {
+  import type { DefineComponent } from 'vue';
+  const component: DefineComponent<object, unknown, unknown>;
+  export default component;
+}
+
+declare module '*.css';
+
+declare module '*.svg' {
+  const content: string;
+  export default content;
+}
+
+declare module '*.svg?component' {
+  import type { DefineComponent } from 'vue';
+  const component: DefineComponent<object, unknown, unknown>;
+  export default component;
+}
+
+declare module '*.png' {
+  const content: string;
+  export default content;
+}
+
+declare module '*.jpg' {
+  const content: string;
+  export default content;
+}
+
+declare module '*.jpeg' {
+  const content: string;
+  export default content;
+}
+
+declare module '*.gif' {
+  const content: string;
+  export default content;
+}
+

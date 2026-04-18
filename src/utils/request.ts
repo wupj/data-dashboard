@@ -1,4 +1,4 @@
-import axios, { AxiosRequestConfig, AxiosResponse } from "axios";
+import axios from 'axios';
 
 export interface HttpResponse<T = unknown> {
   message: string;
@@ -22,9 +22,16 @@ instance.interceptors.request.use(
 instance.interceptors.response.use(
   (response) => {
     const res = response.data;
-    return res;
+    if (res.code !== 200) {
+      throw new Error(res.message);
+    } else {
+      return res.data
+    }
   },
-  (error) => {}
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  (_error) => {
+    // Handle error
+  }
 );
 
 export default instance;

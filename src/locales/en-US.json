@@ -1,0 +1,30 @@
+{
+  "common": {
+    "loading": "Loading..."
+  },
+  "menu": {
+    "sales": "Sales Data"
+  },
+  "sales": {
+    "title": "Sales data visualization platform",
+    "realTimeVisit": "Real-time Visit (National)",
+    "wholesaleTradingVolumeRanking": "Wholesale Trading Volume Ranking (Local)",
+    "TimeSharingTrading": "Time-sharing Trading (Local)",
+    "totalCustomer": "Total Customers",
+    "totalBusinessDistrict": "Total Business Districts",
+    "totalTransactionVolume": "Total Transaction Volume",
+    "todayVisit": "Today's Visits",
+    "newCustomersAddedToday": "New Customers Added Today",
+    "orderToday": "Orders Today",
+    "transactionAmount": "Transaction Amount",
+    "family": "Households",
+    "orders": "Orders",
+    "unit": "Unit",
+    "keyArea": "Key Areas (Local)",
+    "categorySalesRanking": "Category Sales Ranking (Local)",
+    "salesPersonnelPerformanceRanking": "Sales Personnel Performance Ranking (Local)",
+    "realTimeOrder": "Real-time Orders (Local)",
+    "productSalesRanking": "Product Sales Ranking (Local)",
+    "transactionStatistics": "Transaction Statistics (This Week)"
+  }
+}

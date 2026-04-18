@@ -1,0 +1,30 @@
+{
+  "common": {
+    "loading": "加载中..."
+  },
+  "menu": {
+    "sales": "销售数据"
+  },
+  "sales": {
+    "title": "销售数据可视化平台",
+    "realTimeVisit": "实时拜访（全国）",
+    "wholesaleTradingVolumeRanking": "批发商交易额排行 （本地）",
+    "TimeSharingTrading": "分时交易 （本地）",
+    "totalCustomer": "客户总数",
+    "totalBusinessDistrict": "商圈总量",
+    "totalTransactionVolume": "交易总量",
+    "todayVisit": "今日拜访",
+    "newCustomersAddedToday": "今日新增客户",
+    "orderToday": "今日下单",
+    "transactionAmount": "交易金额",
+    "family": "家",
+    "orders": "单",
+    "unit": "元",
+    "keyArea": "重点区域（本地）",
+    "categorySalesRanking": "品类销售排行 （本地）",
+    "salesPersonnelPerformanceRanking": "销售人员业绩排行 （本地）",
+    "realTimeOrder": "实时订单 （本地）",
+    "productSalesRanking": "商品销售排行 （本地）",
+    "transactionStatistics": "交易统计 （本周）"
+  }
+}
