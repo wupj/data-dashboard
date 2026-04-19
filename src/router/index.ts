@@ -1,4 +1,4 @@
-import { createMemoryHistory, createRouter } from 'vue-router';
+import { createWebHistory, createRouter } from 'vue-router';
 import { useTitle } from '@vueuse/core';
 import i18n from '@/plugins/i18n';
 
@@ -17,12 +17,28 @@ const routes = [
           title: 'sales.title',
         },
       },
+      {
+        path: '/logistics',
+        component: () => import('@/pages/logistics/index.vue'),
+        meta: {
+          title: 'logistics.title',
+        },
+      },
+      {
+        path: '/404',
+        meta: {},
+        component: () => import('@/pages/not-found/index.vue'),
+      },
     ],
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    redirect: '/404',
   },
 ];
 
 const router = createRouter({
-  history: createMemoryHistory(),
+  history: createWebHistory(),
   routes,
 });
 

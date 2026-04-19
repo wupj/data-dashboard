@@ -26,5 +26,33 @@
     "realTimeOrder": "Real-time Orders (Local)",
     "productSalesRanking": "Product Sales Ranking (Local)",
     "transactionStatistics": "Transaction Statistics (This Week)"
+  },
+  "logistics": {
+    "title": "Logistics Big Data Platform",
+    "todayWaybillQuantity": "Today's Waybill Quantity",
+    "normalOrder": "Normal Order",
+    "temporaryOrder": "Temporary Order",
+    "abnormalOrder": "Abnormal Order",
+    "orders": "Orders",
+    "stageEvaluationTime": "Stage Evaluation Time",
+    "minute": "Minutes",
+    "personnelInformation": "Personnel Information",
+    "logisticsMap": "Logistics Map",
+    "userCount": "User Count",
+    "sales": "Sales",
+    "waybillStatistics": "Waybill Statistics (Monthly)",
+    "average": "Average",
+    "totalWaybills": "Total Waybills",
+    "vehicleInformation": "Vehicle Information",
+    "inTransit": "In Transit",
+    "idle": "Idle",
+    "repair": "Repair",
+    "scrap": "Scrap",
+    "unit": "Units",
+    "shipmentStatus": "Shipment Status",
+    "serialNo": "Serial No.",
+    "orderNo": "Order No.",
+    "consumptionDuration": "Consumption Duration",
+    "loadFactor": "Load Factor"
   }
 }

@@ -26,5 +26,33 @@
     "realTimeOrder": "实时订单 （本地）",
     "productSalesRanking": "商品销售排行 （本地）",
     "transactionStatistics": "交易统计 （本周）"
+  },
+  "logistics": {
+    "title": "物流大数据平台",
+    "todayWaybillQuantity": "今日运单数量",
+    "normalOrder": "正常单",
+    "temporaryOrder": "临时单",
+    "abnormalOrder": "异常单",
+    "orders": "单",
+    "stageEvaluationTime": "各阶段评价用时",
+    "minute": "分钟",
+    "personnelInformation": "人员信息",
+    "logisticsMap": "物流地图",
+    "userCount": "用户数",
+    "sales": "销量",
+    "waybillStatistics": "运单统计（月统计）",
+    "average": "平均值",
+    "totalWaybills": "运单总数",
+    "vehicleInformation": "车辆信息",
+    "inTransit": "在途",
+    "idle": "空闲",
+    "repair": "维修",
+    "scrap": "报废",
+    "unit": "辆",
+    "shipmentStatus": "运单状态",
+    "serialNo": "序号",
+    "orderNo": "订单编号",
+    "consumptionDuration": "消耗时长",
+    "loadFactor": "满载率"
   }
 }
